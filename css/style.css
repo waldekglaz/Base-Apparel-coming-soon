@@ -34,7 +34,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   margin-bottom: 1rem;
   color: #413a3a;
 }
@@ -74,6 +74,7 @@ body {
   outline: none;
   color: #ce9797;
   background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .container .hero-text-content .form-wrapper .form ::-webkit-input-placeholder {
@@ -112,5 +113,28 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (min-width: 425px) {
+  .container .logo {
+    padding-left: 2.5rem;
+  }
+  .container .logo img {
+    width: 25%;
+  }
+  .container .hero-text-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container .hero-text-content, .container input {
+    width: 60%;
+    font-size: 1.25rem;
+  }
+  .container .hero-text-content .hero-title, .container input .hero-title {
+    font-size: 4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
