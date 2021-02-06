@@ -34,6 +34,7 @@ body{
     }
     .hero-image{
         margin-bottom: 2rem;
+        width:100%;
     }
     .hero-text-content{
         text-align: center;
@@ -70,6 +71,7 @@ body{
                     padding: 0.75rem;
                     outline: none;
                     color: $desaturatedRed;
+                    background-color: transparent;
                     }
                 ::placeholder{
                         color: $desaturatedRed;
@@ -81,7 +83,7 @@ body{
                     padding:0.75rem;
                     background-color: pink;
                     img{
-                        width: 20%;
+                        width: 10px;
                     }
                 }
             }
