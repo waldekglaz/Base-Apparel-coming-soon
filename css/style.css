@@ -1,3 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  background-image: url("../images/bg-pattern-desktop.svg");
+}
+
+.container .logo {
+  padding: 2rem 1rem 1rem;
+}
+
+.container .logo img {
+  width: 40%;
+}
+
+.container .hero-image {
+  margin-bottom: 2rem;
+}
+
+.container .hero-text-content {
+  text-align: center;
+}
+
+.container .hero-text-content .hero-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.container .hero-text-content .hero-title .light-text {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+.container .hero-text-content .hero-paragraph {
+  line-height: 1.5;
+  padding: 0 2rem;
+  color: #ce9797;
+  margin-bottom: 2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

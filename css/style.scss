@@ -11,7 +11,49 @@ $lightFont: 300;
 $regFont: 400;
 $boldFont:600;
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    font-family: $mainFont;
+    font-size: $fontSize;
+    
+}
+
+.container{
+    background-image: url("../images/bg-pattern-desktop.svg");
+    .logo{
+        padding: 2rem 1rem 1rem;
+        img{
+            width: 40%;
+        }
+    }
+    .hero-image{
+        margin-bottom: 2rem;
+    }
+    .hero-text-content{
+        text-align: center;
+        .hero-title{
+            font-weight: $boldFont;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            padding: 0 2rem;
+            margin-bottom: 1rem;
+            .light-text{
+                font-weight: $lightFont;
+                color: $desaturatedRed;
+            }
+        }
+        .hero-paragraph{
+            line-height: 1.5;
+            padding: 0 2rem;
+            color: $desaturatedRed;
+            margin-bottom: 2rem;
+        }
+    }
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
