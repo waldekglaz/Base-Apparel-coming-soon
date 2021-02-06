@@ -33,8 +33,13 @@ body{
         }
     }
     .hero-image{
-        margin:0 auto 2rem;
-        min-width:100%;
+        margin-bottom: 2rem;
+        img{
+        
+            min-width: 100%;
+        }
+        
+
 
     }
     .hero-text-content{
@@ -58,7 +63,7 @@ body{
             margin-bottom: 2rem;
         }
         .form-wrapper{
-            padding:0 1rem;
+            padding:0 2rem;
             margin-bottom: 2rem;
             .form{
                 border: $desaturatedRed 1px solid;
