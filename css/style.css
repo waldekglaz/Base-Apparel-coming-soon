@@ -6,10 +6,8 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
-}
-
-.container {
   background-image: url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
 }
 
 .container .logo {
@@ -34,6 +32,7 @@ body {
   letter-spacing: 8px;
   padding: 0 2rem;
   margin-bottom: 1rem;
+  color: #413a3a;
 }
 
 .container .hero-text-content .hero-title .light-text {
@@ -46,6 +45,59 @@ body {
   padding: 0 2rem;
   color: #ce9797;
   margin-bottom: 2rem;
+}
+
+.container .hero-text-content .form-wrapper {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.container .hero-text-content .form-wrapper .form {
+  border: #ce9797 1px solid;
+  border-radius: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 1rem;
+}
+
+.container .hero-text-content .form-wrapper .form input {
+  border: none;
+  padding: 0.75rem;
+  outline: none;
+  color: #ce9797;
+}
+
+.container .hero-text-content .form-wrapper .form ::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+.container .hero-text-content .form-wrapper .form :-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.container .hero-text-content .form-wrapper .form ::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.container .hero-text-content .form-wrapper .form ::placeholder {
+  color: #ce9797;
+}
+
+.container .hero-text-content .form-wrapper .form button {
+  border-radius: 1.25rem;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  border: pink;
+  padding: 0.75rem;
+  background-color: pink;
+}
+
+.container .hero-text-content .form-wrapper .form button img {
+  width: 20%;
 }
 
 .attribution {
