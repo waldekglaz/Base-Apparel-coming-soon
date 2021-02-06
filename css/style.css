@@ -20,7 +20,7 @@ body {
 
 .container .hero-image {
   margin-bottom: 2rem;
-  width: 100%;
+  min-width: 100%;
 }
 
 .container .hero-text-content {
